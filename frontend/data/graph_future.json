@@ -1,0 +1,2499 @@
+{
+  "nodes": [
+    {
+      "id": "CC1",
+      "name": "DHOBY GHAUT MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC2",
+      "name": "BRAS BASAH MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC3",
+      "name": "ESPLANADE MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC4",
+      "name": "PROMENADE MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC5",
+      "name": "NICOLL HIGHWAY MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC6",
+      "name": "STADIUM MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC7",
+      "name": "MOUNTBATTEN MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC8",
+      "name": "DAKOTA MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC9",
+      "name": "PAYA LEBAR MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC10",
+      "name": "MACPHERSON MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC11",
+      "name": "TAI SENG MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC12",
+      "name": "BARTLEY MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC13",
+      "name": "SERANGOON MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC14",
+      "name": "LORONG CHUAN MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC15",
+      "name": "BISHAN MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC16",
+      "name": "MARYMOUNT MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC17",
+      "name": "CALDECOTT MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC18",
+      "name": "BUKIT BROWN MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC19",
+      "name": "BOTANIC GARDENS MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC20",
+      "name": "FARRER ROAD MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC21",
+      "name": "HOLLAND VILLAGE MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC22",
+      "name": "BUONA VISTA MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC23",
+      "name": "ONE-NORTH MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC24",
+      "name": "KENT RIDGE MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC25",
+      "name": "HAW PAR VILLA MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC26",
+      "name": "PASIR PANJANG MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC27",
+      "name": "LABRADOR PARK MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC28",
+      "name": "TELOK BLANGAH MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CC29",
+      "name": "HARBOURFRONT MRT STATION",
+      "lines": [
+        "CC"
+      ]
+    },
+    {
+      "id": "CE1",
+      "name": "BAYFRONT MRT STATION",
+      "lines": [
+        "CE"
+      ]
+    },
+    {
+      "id": "CE2",
+      "name": "MARINA BAY MRT STATION",
+      "lines": [
+        "CE"
+      ]
+    },
+    {
+      "id": "CR1",
+      "name": "Changi Airport T5",
+      "lines": [
+        "CR"
+      ]
+    },
+    {
+      "id": "CR2",
+      "name": "Aviation Park",
+      "lines": [
+        "CR"
+      ]
+    },
+    {
+      "id": "CR3",
+      "name": "Loyang",
+      "lines": [
+        "CR"
+      ]
+    },
+    {
+      "id": "CR4",
+      "name": "Pasir Ris East",
+      "lines": [
+        "CR"
+      ]
+    },
+    {
+      "id": "CR5",
+      "name": "Pasir Ris",
+      "lines": [
+        "CR"
+      ]
+    },
+    {
+      "id": "DT1",
+      "name": "BUKIT PANJANG MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT2",
+      "name": "CASHEW MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT3",
+      "name": "HILLVIEW MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT4",
+      "name": "HUME MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT5",
+      "name": "BEAUTY WORLD MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT6",
+      "name": "KING ALBERT PARK MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT7",
+      "name": "SIXTH AVENUE MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT8",
+      "name": "TAN KAH KEE MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT9",
+      "name": "BOTANIC GARDENS MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT10",
+      "name": "STEVENS MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT11",
+      "name": "NEWTON MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT12",
+      "name": "LITTLE INDIA MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT13",
+      "name": "ROCHOR MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT14",
+      "name": "BUGIS MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT15",
+      "name": "PROMENADE MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT16",
+      "name": "BAYFRONT MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT17",
+      "name": "DOWNTOWN MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT18",
+      "name": "TELOK AYER MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT19",
+      "name": "CHINATOWN MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT20",
+      "name": "FORT CANNING MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT21",
+      "name": "BENCOOLEN MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT22",
+      "name": "JALAN BESAR MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT23",
+      "name": "BENDEMEER MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT24",
+      "name": "GEYLANG BAHRU MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT25",
+      "name": "MATTAR MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT26",
+      "name": "MACPHERSON MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT27",
+      "name": "UBI MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT28",
+      "name": "KAKI BUKIT MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT29",
+      "name": "BEDOK NORTH MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT30",
+      "name": "BEDOK RESERVOIR MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT31",
+      "name": "TAMPINES WEST MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT32",
+      "name": "TAMPINES MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT33",
+      "name": "TAMPINES EAST MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT34",
+      "name": "UPPER CHANGI MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "DT35",
+      "name": "EXPO MRT STATION",
+      "lines": [
+        "DT"
+      ]
+    },
+    {
+      "id": "EW1",
+      "name": "PASIR RIS MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW2",
+      "name": "TAMPINES MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW3",
+      "name": "SIMEI MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW4",
+      "name": "TANAH MERAH MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW5",
+      "name": "BEDOK MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW6",
+      "name": "KEMBANGAN MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW7",
+      "name": "EUNOS MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW8",
+      "name": "PAYA LEBAR MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW9",
+      "name": "ALJUNIED MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW10",
+      "name": "KALLANG MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW11",
+      "name": "LAVENDER MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW12",
+      "name": "BUGIS MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW13",
+      "name": "CITY HALL MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW14",
+      "name": "RAFFLES PLACE MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW15",
+      "name": "TANJONG PAGAR MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW16",
+      "name": "OUTRAM PARK MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW17",
+      "name": "TIONG BAHRU MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW18",
+      "name": "REDHILL MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW19",
+      "name": "QUEENSTOWN MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW20",
+      "name": "COMMONWEALTH MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW21",
+      "name": "BUONA VISTA MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW22",
+      "name": "DOVER MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW23",
+      "name": "CLEMENTI MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW24",
+      "name": "JURONG EAST MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW25",
+      "name": "CHINESE GARDEN MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW26",
+      "name": "LAKESIDE MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW27",
+      "name": "BOON LAY MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW28",
+      "name": "PIONEER MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW29",
+      "name": "JOO KOON MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW30",
+      "name": "GUL CIRCLE MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW31",
+      "name": "TUAS CRESCENT MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW32",
+      "name": "TUAS WEST ROAD MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "EW33",
+      "name": "TUAS LINK MRT STATION",
+      "lines": [
+        "EW"
+      ]
+    },
+    {
+      "id": "NE1",
+      "name": "HARBOURFRONT MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE3",
+      "name": "OUTRAM PARK MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE4",
+      "name": "CHINATOWN MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE5",
+      "name": "CLARKE QUAY MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE6",
+      "name": "DHOBY GHAUT MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE7",
+      "name": "LITTLE INDIA MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE8",
+      "name": "FARRER PARK MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE9",
+      "name": "BOON KENG MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE10",
+      "name": "POTONG PASIR MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE11",
+      "name": "WOODLEIGH MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE12",
+      "name": "SERANGOON MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE13",
+      "name": "KOVAN MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE14",
+      "name": "HOUGANG MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE15",
+      "name": "BUANGKOK MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE16",
+      "name": "SENGKANG MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NE17",
+      "name": "PUNGGOL MRT STATION",
+      "lines": [
+        "NE"
+      ]
+    },
+    {
+      "id": "NS1",
+      "name": "JURONG EAST MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS2",
+      "name": "BUKIT BATOK MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS3",
+      "name": "BUKIT GOMBAK MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS4",
+      "name": "CHOA CHU KANG MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS5",
+      "name": "YEW TEE MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS7",
+      "name": "KRANJI MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS8",
+      "name": "MARSILING MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS9",
+      "name": "WOODLANDS MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS10",
+      "name": "ADMIRALTY MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS11",
+      "name": "SEMBAWANG MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS12",
+      "name": "CANBERRA MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS13",
+      "name": "YISHUN MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS14",
+      "name": "KHATIB MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS15",
+      "name": "YIO CHU KANG MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS16",
+      "name": "ANG MO KIO MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS17",
+      "name": "BISHAN MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS18",
+      "name": "BRADDELL MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS19",
+      "name": "TOA PAYOH MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS20",
+      "name": "NOVENA MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS21",
+      "name": "NEWTON MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS22",
+      "name": "ORCHARD MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS23",
+      "name": "SOMERSET MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS24",
+      "name": "DHOBY GHAUT MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS25",
+      "name": "CITY HALL MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS26",
+      "name": "RAFFLES PLACE MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS27",
+      "name": "MARINA BAY MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "NS28",
+      "name": "MARINA SOUTH PIER MRT STATION",
+      "lines": [
+        "NS"
+      ]
+    },
+    {
+      "id": "TE1",
+      "name": "WOODLANDS NORTH MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE2",
+      "name": "WOODLANDS MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE3",
+      "name": "WOODLANDS SOUTH MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE4",
+      "name": "SPRINGLEAF MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE5",
+      "name": "LENTOR MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE6",
+      "name": "MAYFLOWER MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE7",
+      "name": "BRIGHT HILL MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE8",
+      "name": "UPPER THOMSON MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE9",
+      "name": "CALDECOTT MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE11",
+      "name": "STEVENS MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE12",
+      "name": "NAPIER",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE13",
+      "name": "ORCHARD BOULEVARD",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE14",
+      "name": "ORCHARD MRT STATION",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE15",
+      "name": "GREAT WORLD",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE16",
+      "name": "HAVELOCK",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE17",
+      "name": "OUTRAM PARK",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE18",
+      "name": "MAXWELL",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE19",
+      "name": "SHENTON WAY",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE20",
+      "name": "MARINA BAY",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE22",
+      "name": "GARDENS BY THE BAY",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE23",
+      "name": "TANJONG RHU",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE24",
+      "name": "KATONG PARK",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE25",
+      "name": "TANJONG KATONG",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE26",
+      "name": "MARINE PARADE",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE27",
+      "name": "MARINE TERRACE",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE28",
+      "name": "SIGLAP",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE29",
+      "name": "BAYSHORE",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE30",
+      "name": "Bedok South",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE31",
+      "name": "Sungei Bedok",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE32",
+      "name": "Changi Airport T5",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE32X",
+      "name": "Xilin",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE33",
+      "name": "Changi Airport",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE34",
+      "name": "Expo",
+      "lines": [
+        "TE"
+      ]
+    },
+    {
+      "id": "TE35",
+      "name": "Tanah Merah",
+      "lines": [
+        "TE"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "CC1",
+      "to": "CC2"
+    },
+    {
+      "from": "CC1",
+      "to": "NE6"
+    },
+    {
+      "from": "CC1",
+      "to": "NS24"
+    },
+    {
+      "from": "CC2",
+      "to": "CC3"
+    },
+    {
+      "from": "CC3",
+      "to": "CC4"
+    },
+    {
+      "from": "CC4",
+      "to": "CC5"
+    },
+    {
+      "from": "CC4",
+      "to": "DT15"
+    },
+    {
+      "from": "CC5",
+      "to": "CC6"
+    },
+    {
+      "from": "CC6",
+      "to": "CC7"
+    },
+    {
+      "from": "CC7",
+      "to": "CC8"
+    },
+    {
+      "from": "CC8",
+      "to": "CC9"
+    },
+    {
+      "from": "CC9",
+      "to": "CC10"
+    },
+    {
+      "from": "CC9",
+      "to": "EW8"
+    },
+    {
+      "from": "CC10",
+      "to": "CC11"
+    },
+    {
+      "from": "CC10",
+      "to": "DT26"
+    },
+    {
+      "from": "CC11",
+      "to": "CC12"
+    },
+    {
+      "from": "CC12",
+      "to": "CC13"
+    },
+    {
+      "from": "CC13",
+      "to": "CC14"
+    },
+    {
+      "from": "CC13",
+      "to": "NE12"
+    },
+    {
+      "from": "CC14",
+      "to": "CC15"
+    },
+    {
+      "from": "CC15",
+      "to": "CC16"
+    },
+    {
+      "from": "CC15",
+      "to": "NS17"
+    },
+    {
+      "from": "CC16",
+      "to": "CC17"
+    },
+    {
+      "from": "CC17",
+      "to": "CC18"
+    },
+    {
+      "from": "CC17",
+      "to": "TE9"
+    },
+    {
+      "from": "CC18",
+      "to": "CC19"
+    },
+    {
+      "from": "CC19",
+      "to": "CC20"
+    },
+    {
+      "from": "CC19",
+      "to": "DT9"
+    },
+    {
+      "from": "CC20",
+      "to": "CC21"
+    },
+    {
+      "from": "CC21",
+      "to": "CC22"
+    },
+    {
+      "from": "CC22",
+      "to": "CC23"
+    },
+    {
+      "from": "CC22",
+      "to": "EW21"
+    },
+    {
+      "from": "CC23",
+      "to": "CC24"
+    },
+    {
+      "from": "CC24",
+      "to": "CC25"
+    },
+    {
+      "from": "CC25",
+      "to": "CC26"
+    },
+    {
+      "from": "CC26",
+      "to": "CC27"
+    },
+    {
+      "from": "CC27",
+      "to": "CC28"
+    },
+    {
+      "from": "CC28",
+      "to": "CC29"
+    },
+    {
+      "from": "CC29",
+      "to": "NE1"
+    },
+    {
+      "from": "CE1",
+      "to": "CE2"
+    },
+    {
+      "from": "CE1",
+      "to": "DT16"
+    },
+    {
+      "from": "CE2",
+      "to": "NS27"
+    },
+    {
+      "from": "CE2",
+      "to": "TE20"
+    },
+    {
+      "from": "CR1",
+      "to": "CR2"
+    },
+    {
+      "from": "CR1",
+      "to": "TE32"
+    },
+    {
+      "from": "CR2",
+      "to": "CR3"
+    },
+    {
+      "from": "CR3",
+      "to": "CR4"
+    },
+    {
+      "from": "CR4",
+      "to": "CR5"
+    },
+    {
+      "from": "CR5",
+      "to": "EW1"
+    },
+    {
+      "from": "DT1",
+      "to": "DT2"
+    },
+    {
+      "from": "DT2",
+      "to": "DT3"
+    },
+    {
+      "from": "DT3",
+      "to": "DT4"
+    },
+    {
+      "from": "DT4",
+      "to": "DT5"
+    },
+    {
+      "from": "DT5",
+      "to": "DT6"
+    },
+    {
+      "from": "DT6",
+      "to": "DT7"
+    },
+    {
+      "from": "DT7",
+      "to": "DT8"
+    },
+    {
+      "from": "DT8",
+      "to": "DT9"
+    },
+    {
+      "from": "DT9",
+      "to": "DT10"
+    },
+    {
+      "from": "DT10",
+      "to": "DT11"
+    },
+    {
+      "from": "DT10",
+      "to": "TE11"
+    },
+    {
+      "from": "DT11",
+      "to": "DT12"
+    },
+    {
+      "from": "DT11",
+      "to": "NS21"
+    },
+    {
+      "from": "DT12",
+      "to": "DT13"
+    },
+    {
+      "from": "DT12",
+      "to": "NE7"
+    },
+    {
+      "from": "DT13",
+      "to": "DT14"
+    },
+    {
+      "from": "DT14",
+      "to": "DT15"
+    },
+    {
+      "from": "DT14",
+      "to": "EW12"
+    },
+    {
+      "from": "DT15",
+      "to": "DT16"
+    },
+    {
+      "from": "DT16",
+      "to": "DT17"
+    },
+    {
+      "from": "DT17",
+      "to": "DT18"
+    },
+    {
+      "from": "DT18",
+      "to": "DT19"
+    },
+    {
+      "from": "DT19",
+      "to": "DT20"
+    },
+    {
+      "from": "DT19",
+      "to": "NE4"
+    },
+    {
+      "from": "DT20",
+      "to": "DT21"
+    },
+    {
+      "from": "DT21",
+      "to": "DT22"
+    },
+    {
+      "from": "DT22",
+      "to": "DT23"
+    },
+    {
+      "from": "DT23",
+      "to": "DT24"
+    },
+    {
+      "from": "DT24",
+      "to": "DT25"
+    },
+    {
+      "from": "DT25",
+      "to": "DT26"
+    },
+    {
+      "from": "DT26",
+      "to": "DT27"
+    },
+    {
+      "from": "DT27",
+      "to": "DT28"
+    },
+    {
+      "from": "DT28",
+      "to": "DT29"
+    },
+    {
+      "from": "DT29",
+      "to": "DT30"
+    },
+    {
+      "from": "DT30",
+      "to": "DT31"
+    },
+    {
+      "from": "DT31",
+      "to": "DT32"
+    },
+    {
+      "from": "DT32",
+      "to": "DT33"
+    },
+    {
+      "from": "DT32",
+      "to": "EW2"
+    },
+    {
+      "from": "DT33",
+      "to": "DT34"
+    },
+    {
+      "from": "DT34",
+      "to": "DT35"
+    },
+    {
+      "from": "DT35",
+      "to": "TE34"
+    },
+    {
+      "from": "EW1",
+      "to": "EW2"
+    },
+    {
+      "from": "EW2",
+      "to": "EW3"
+    },
+    {
+      "from": "EW3",
+      "to": "EW4"
+    },
+    {
+      "from": "EW4",
+      "to": "EW5"
+    },
+    {
+      "from": "EW4",
+      "to": "TE35"
+    },
+    {
+      "from": "EW5",
+      "to": "EW6"
+    },
+    {
+      "from": "EW6",
+      "to": "EW7"
+    },
+    {
+      "from": "EW7",
+      "to": "EW8"
+    },
+    {
+      "from": "EW8",
+      "to": "EW9"
+    },
+    {
+      "from": "EW9",
+      "to": "EW10"
+    },
+    {
+      "from": "EW10",
+      "to": "EW11"
+    },
+    {
+      "from": "EW11",
+      "to": "EW12"
+    },
+    {
+      "from": "EW12",
+      "to": "EW13"
+    },
+    {
+      "from": "EW13",
+      "to": "EW14"
+    },
+    {
+      "from": "EW13",
+      "to": "NS25"
+    },
+    {
+      "from": "EW14",
+      "to": "EW15"
+    },
+    {
+      "from": "EW14",
+      "to": "NS26"
+    },
+    {
+      "from": "EW15",
+      "to": "EW16"
+    },
+    {
+      "from": "EW16",
+      "to": "EW17"
+    },
+    {
+      "from": "EW16",
+      "to": "NE3"
+    },
+    {
+      "from": "EW16",
+      "to": "TE17"
+    },
+    {
+      "from": "EW17",
+      "to": "EW18"
+    },
+    {
+      "from": "EW18",
+      "to": "EW19"
+    },
+    {
+      "from": "EW19",
+      "to": "EW20"
+    },
+    {
+      "from": "EW20",
+      "to": "EW21"
+    },
+    {
+      "from": "EW21",
+      "to": "EW22"
+    },
+    {
+      "from": "EW22",
+      "to": "EW23"
+    },
+    {
+      "from": "EW23",
+      "to": "EW24"
+    },
+    {
+      "from": "EW24",
+      "to": "EW25"
+    },
+    {
+      "from": "EW24",
+      "to": "NS1"
+    },
+    {
+      "from": "EW25",
+      "to": "EW26"
+    },
+    {
+      "from": "EW26",
+      "to": "EW27"
+    },
+    {
+      "from": "EW27",
+      "to": "EW28"
+    },
+    {
+      "from": "EW28",
+      "to": "EW29"
+    },
+    {
+      "from": "EW29",
+      "to": "EW30"
+    },
+    {
+      "from": "EW30",
+      "to": "EW31"
+    },
+    {
+      "from": "EW31",
+      "to": "EW32"
+    },
+    {
+      "from": "EW32",
+      "to": "EW33"
+    },
+    {
+      "from": "NE1",
+      "to": "NE3"
+    },
+    {
+      "from": "NE3",
+      "to": "NE4"
+    },
+    {
+      "from": "NE4",
+      "to": "NE5"
+    },
+    {
+      "from": "NE5",
+      "to": "NE6"
+    },
+    {
+      "from": "NE6",
+      "to": "NE7"
+    },
+    {
+      "from": "NE7",
+      "to": "NE8"
+    },
+    {
+      "from": "NE8",
+      "to": "NE9"
+    },
+    {
+      "from": "NE9",
+      "to": "NE10"
+    },
+    {
+      "from": "NE10",
+      "to": "NE11"
+    },
+    {
+      "from": "NE11",
+      "to": "NE12"
+    },
+    {
+      "from": "NE12",
+      "to": "NE13"
+    },
+    {
+      "from": "NE13",
+      "to": "NE14"
+    },
+    {
+      "from": "NE14",
+      "to": "NE15"
+    },
+    {
+      "from": "NE15",
+      "to": "NE16"
+    },
+    {
+      "from": "NE16",
+      "to": "NE17"
+    },
+    {
+      "from": "NS1",
+      "to": "NS2"
+    },
+    {
+      "from": "NS2",
+      "to": "NS3"
+    },
+    {
+      "from": "NS3",
+      "to": "NS4"
+    },
+    {
+      "from": "NS4",
+      "to": "NS5"
+    },
+    {
+      "from": "NS5",
+      "to": "NS7"
+    },
+    {
+      "from": "NS7",
+      "to": "NS8"
+    },
+    {
+      "from": "NS8",
+      "to": "NS9"
+    },
+    {
+      "from": "NS9",
+      "to": "NS10"
+    },
+    {
+      "from": "NS9",
+      "to": "TE2"
+    },
+    {
+      "from": "NS10",
+      "to": "NS11"
+    },
+    {
+      "from": "NS11",
+      "to": "NS12"
+    },
+    {
+      "from": "NS12",
+      "to": "NS13"
+    },
+    {
+      "from": "NS13",
+      "to": "NS14"
+    },
+    {
+      "from": "NS14",
+      "to": "NS15"
+    },
+    {
+      "from": "NS15",
+      "to": "NS16"
+    },
+    {
+      "from": "NS16",
+      "to": "NS17"
+    },
+    {
+      "from": "NS17",
+      "to": "NS18"
+    },
+    {
+      "from": "NS18",
+      "to": "NS19"
+    },
+    {
+      "from": "NS19",
+      "to": "NS20"
+    },
+    {
+      "from": "NS20",
+      "to": "NS21"
+    },
+    {
+      "from": "NS21",
+      "to": "NS22"
+    },
+    {
+      "from": "NS22",
+      "to": "NS23"
+    },
+    {
+      "from": "NS22",
+      "to": "TE14"
+    },
+    {
+      "from": "NS23",
+      "to": "NS24"
+    },
+    {
+      "from": "NS24",
+      "to": "NS25"
+    },
+    {
+      "from": "NS25",
+      "to": "NS26"
+    },
+    {
+      "from": "NS26",
+      "to": "NS27"
+    },
+    {
+      "from": "NS27",
+      "to": "NS28"
+    },
+    {
+      "from": "TE1",
+      "to": "TE2"
+    },
+    {
+      "from": "TE2",
+      "to": "TE3"
+    },
+    {
+      "from": "TE3",
+      "to": "TE4"
+    },
+    {
+      "from": "TE4",
+      "to": "TE5"
+    },
+    {
+      "from": "TE5",
+      "to": "TE6"
+    },
+    {
+      "from": "TE6",
+      "to": "TE7"
+    },
+    {
+      "from": "TE7",
+      "to": "TE8"
+    },
+    {
+      "from": "TE8",
+      "to": "TE9"
+    },
+    {
+      "from": "TE9",
+      "to": "TE11"
+    },
+    {
+      "from": "TE11",
+      "to": "TE12"
+    },
+    {
+      "from": "TE12",
+      "to": "TE13"
+    },
+    {
+      "from": "TE13",
+      "to": "TE14"
+    },
+    {
+      "from": "TE14",
+      "to": "TE15"
+    },
+    {
+      "from": "TE15",
+      "to": "TE16"
+    },
+    {
+      "from": "TE16",
+      "to": "TE17"
+    },
+    {
+      "from": "TE17",
+      "to": "TE18"
+    },
+    {
+      "from": "TE18",
+      "to": "TE19"
+    },
+    {
+      "from": "TE19",
+      "to": "TE20"
+    },
+    {
+      "from": "TE20",
+      "to": "TE22"
+    },
+    {
+      "from": "TE22",
+      "to": "TE23"
+    },
+    {
+      "from": "TE23",
+      "to": "TE24"
+    },
+    {
+      "from": "TE24",
+      "to": "TE25"
+    },
+    {
+      "from": "TE25",
+      "to": "TE26"
+    },
+    {
+      "from": "TE26",
+      "to": "TE27"
+    },
+    {
+      "from": "TE27",
+      "to": "TE28"
+    },
+    {
+      "from": "TE28",
+      "to": "TE29"
+    },
+    {
+      "from": "TE29",
+      "to": "TE30"
+    },
+    {
+      "from": "TE30",
+      "to": "TE31"
+    },
+    {
+      "from": "TE31",
+      "to": "TE32"
+    },
+    {
+      "from": "TE32",
+      "to": "TE32X"
+    },
+    {
+      "from": "TE32X",
+      "to": "TE33"
+    },
+    {
+      "from": "TE33",
+      "to": "TE34"
+    },
+    {
+      "from": "TE34",
+      "to": "TE35"
+    }
+  ],
+  "weights": {
+    "CC1->CC2": 3.0,
+    "CC1->NE6": 7.0,
+    "CC1->NS24": 7.0,
+    "CC2->CC1": 1.0,
+    "CC2->CC3": 1.0,
+    "CC3->CC2": 1.0,
+    "CC3->CC4": 1.0,
+    "CC4->CC3": 2.0,
+    "CC4->CC5": 2.0,
+    "CC4->DT15": 6.0,
+    "CC5->CC4": 1.0,
+    "CC5->CC6": 1.0,
+    "CC6->CC5": 1.0,
+    "CC6->CC7": 1.0,
+    "CC7->CC6": 1.0,
+    "CC7->CC8": 1.0,
+    "CC8->CC7": 1.0,
+    "CC8->CC9": 1.0,
+    "CC9->CC8": 2.0,
+    "CC9->CC10": 2.0,
+    "CC9->EW8": 6.0,
+    "CC10->CC9": 2.0,
+    "CC10->CC11": 2.0,
+    "CC10->DT26": 6.0,
+    "CC11->CC10": 1.0,
+    "CC11->CC12": 1.0,
+    "CC12->CC11": 1.0,
+    "CC12->CC13": 1.0,
+    "CC13->CC12": 2.0,
+    "CC13->CC14": 2.0,
+    "CC13->NE12": 6.0,
+    "CC14->CC13": 1.0,
+    "CC14->CC15": 1.0,
+    "CC15->CC14": 2.0,
+    "CC15->CC16": 2.0,
+    "CC15->NS17": 6.0,
+    "CC16->CC15": 1.0,
+    "CC16->CC17": 1.0,
+    "CC17->CC16": 2.0,
+    "CC17->CC18": 2.0,
+    "CC17->TE9": 6.0,
+    "CC18->CC17": 1.0,
+    "CC18->CC19": 1.0,
+    "CC19->CC18": 2.0,
+    "CC19->CC20": 2.0,
+    "CC19->DT9": 6.0,
+    "CC20->CC19": 1.0,
+    "CC20->CC21": 1.0,
+    "CC21->CC20": 1.0,
+    "CC21->CC22": 1.0,
+    "CC22->CC21": 2.0,
+    "CC22->CC23": 2.0,
+    "CC22->EW21": 6.0,
+    "CC23->CC22": 1.0,
+    "CC23->CC24": 1.0,
+    "CC24->CC23": 1.0,
+    "CC24->CC25": 1.0,
+    "CC25->CC24": 1.0,
+    "CC25->CC26": 1.0,
+    "CC26->CC25": 1.0,
+    "CC26->CC27": 1.0,
+    "CC27->CC26": 1.0,
+    "CC27->CC28": 1.0,
+    "CC28->CC27": 1.0,
+    "CC28->CC29": 1.0,
+    "CC29->CC28": 2.0,
+    "CC29->NE1": 6.0,
+    "CE1->CE2": 2.0,
+    "CE1->DT16": 6.0,
+    "CE2->CE1": 2.0,
+    "CE2->NS27": 6.0,
+    "CE2->TE20": 2.0,
+    "CR1->CR2": 2.0,
+    "CR1->TE32": 6.0,
+    "CR2->CR1": 1.0,
+    "CR2->CR3": 1.0,
+    "CR3->CR2": 1.0,
+    "CR3->CR4": 1.0,
+    "CR4->CR3": 1.0,
+    "CR4->CR5": 1.0,
+    "CR5->CR4": 1.0,
+    "CR5->EW1": 1.0,
+    "DT1->DT2": 1.0,
+    "DT2->DT1": 1.0,
+    "DT2->DT3": 1.0,
+    "DT3->DT2": 1.0,
+    "DT3->DT4": 1.0,
+    "DT4->DT3": 1.0,
+    "DT4->DT5": 1.0,
+    "DT5->DT4": 1.0,
+    "DT5->DT6": 1.0,
+    "DT6->DT5": 1.0,
+    "DT6->DT7": 1.0,
+    "DT7->DT6": 1.0,
+    "DT7->DT8": 1.0,
+    "DT8->DT7": 1.0,
+    "DT8->DT9": 1.0,
+    "DT9->DT8": 2.0,
+    "DT9->DT10": 2.0,
+    "DT9->CC19": 6.0,
+    "DT10->DT9": 2.0,
+    "DT10->DT11": 2.0,
+    "DT10->TE11": 6.0,
+    "DT11->DT10": 2.0,
+    "DT11->DT12": 2.0,
+    "DT11->NS21": 6.0,
+    "DT12->DT11": 2.0,
+    "DT12->DT13": 2.0,
+    "DT12->NE7": 6.0,
+    "DT13->DT12": 1.0,
+    "DT13->DT14": 1.0,
+    "DT14->DT13": 2.0,
+    "DT14->DT15": 2.0,
+    "DT14->EW12": 6.0,
+    "DT15->DT14": 2.0,
+    "DT15->DT16": 2.0,
+    "DT15->CC4": 6.0,
+    "DT16->DT15": 2.0,
+    "DT16->DT17": 2.0,
+    "DT16->CE1": 6.0,
+    "DT17->DT16": 1.0,
+    "DT17->DT18": 1.0,
+    "DT18->DT17": 1.0,
+    "DT18->DT19": 1.0,
+    "DT19->DT18": 2.0,
+    "DT19->DT20": 2.0,
+    "DT19->NE4": 6.0,
+    "DT20->DT19": 1.0,
+    "DT20->DT21": 1.0,
+    "DT21->DT20": 1.0,
+    "DT21->DT22": 1.0,
+    "DT22->DT21": 1.0,
+    "DT22->DT23": 1.0,
+    "DT23->DT22": 1.0,
+    "DT23->DT24": 1.0,
+    "DT24->DT23": 1.0,
+    "DT24->DT25": 1.0,
+    "DT25->DT24": 1.0,
+    "DT25->DT26": 1.0,
+    "DT26->DT25": 2.0,
+    "DT26->DT27": 2.0,
+    "DT26->CC10": 6.0,
+    "DT27->DT26": 1.0,
+    "DT27->DT28": 1.0,
+    "DT28->DT27": 1.0,
+    "DT28->DT29": 1.0,
+    "DT29->DT28": 1.0,
+    "DT29->DT30": 1.0,
+    "DT30->DT29": 1.0,
+    "DT30->DT31": 1.0,
+    "DT31->DT30": 1.0,
+    "DT31->DT32": 1.0,
+    "DT32->DT31": 2.0,
+    "DT32->DT33": 2.0,
+    "DT32->EW2": 6.0,
+    "DT33->DT32": 1.0,
+    "DT33->DT34": 1.0,
+    "DT34->DT33": 1.0,
+    "DT34->DT35": 1.0,
+    "DT35->DT34": 1.0,
+    "DT35->TE34": 1.0,
+    "EW1->EW2": 1.0,
+    "EW1->CR5": 1.0,
+    "EW2->EW1": 2.0,
+    "EW2->EW3": 2.0,
+    "EW2->DT32": 6.0,
+    "EW3->EW2": 1.0,
+    "EW3->EW4": 1.0,
+    "EW4->EW3": 1.0,
+    "EW4->EW5": 1.0,
+    "EW4->TE35": 1.0,
+    "EW5->EW4": 1.0,
+    "EW5->EW6": 1.0,
+    "EW6->EW5": 1.0,
+    "EW6->EW7": 1.0,
+    "EW7->EW6": 1.0,
+    "EW7->EW8": 1.0,
+    "EW8->EW7": 2.0,
+    "EW8->EW9": 2.0,
+    "EW8->CC9": 6.0,
+    "EW9->EW8": 1.0,
+    "EW9->EW10": 1.0,
+    "EW10->EW9": 1.0,
+    "EW10->EW11": 1.0,
+    "EW11->EW10": 1.0,
+    "EW11->EW12": 1.0,
+    "EW12->EW11": 2.0,
+    "EW12->EW13": 2.0,
+    "EW12->DT14": 6.0,
+    "EW13->EW12": 2.0,
+    "EW13->EW14": 2.0,
+    "EW13->NS25": 6.0,
+    "EW14->EW13": 2.0,
+    "EW14->EW15": 2.0,
+    "EW14->NS26": 6.0,
+    "EW15->EW14": 1.0,
+    "EW15->EW16": 1.0,
+    "EW16->EW15": 2.0,
+    "EW16->EW17": 2.0,
+    "EW16->NE3": 6.0,
+    "EW16->TE17": 2.0,
+    "EW17->EW16": 1.0,
+    "EW17->EW18": 1.0,
+    "EW18->EW17": 1.0,
+    "EW18->EW19": 1.0,
+    "EW19->EW18": 1.0,
+    "EW19->EW20": 1.0,
+    "EW20->EW19": 1.0,
+    "EW20->EW21": 1.0,
+    "EW21->EW20": 2.0,
+    "EW21->EW22": 2.0,
+    "EW21->CC22": 6.0,
+    "EW22->EW21": 1.0,
+    "EW22->EW23": 1.0,
+    "EW23->EW22": 1.0,
+    "EW23->EW24": 1.0,
+    "EW24->EW23": 2.0,
+    "EW24->EW25": 2.0,
+    "EW24->NS1": 6.0,
+    "EW25->EW24": 1.0,
+    "EW25->EW26": 1.0,
+    "EW26->EW25": 1.0,
+    "EW26->EW27": 1.0,
+    "EW27->EW26": 1.0,
+    "EW27->EW28": 1.0,
+    "EW28->EW27": 1.0,
+    "EW28->EW29": 1.0,
+    "EW29->EW28": 1.0,
+    "EW29->EW30": 1.0,
+    "EW30->EW29": 1.0,
+    "EW30->EW31": 1.0,
+    "EW31->EW30": 1.0,
+    "EW31->EW32": 1.0,
+    "EW32->EW31": 1.0,
+    "EW32->EW33": 1.0,
+    "EW33->EW32": 1.0,
+    "NE1->NE3": 2.0,
+    "NE1->CC29": 6.0,
+    "NE3->NE1": 2.0,
+    "NE3->NE4": 2.0,
+    "NE3->EW16": 6.0,
+    "NE4->NE3": 2.0,
+    "NE4->NE5": 2.0,
+    "NE4->DT19": 6.0,
+    "NE5->NE4": 1.0,
+    "NE5->NE6": 1.0,
+    "NE6->NE5": 3.0,
+    "NE6->NE7": 3.0,
+    "NE6->CC1": 7.0,
+    "NE7->NE6": 2.0,
+    "NE7->NE8": 2.0,
+    "NE7->DT12": 6.0,
+    "NE8->NE7": 1.0,
+    "NE8->NE9": 1.0,
+    "NE9->NE8": 1.0,
+    "NE9->NE10": 1.0,
+    "NE10->NE9": 1.0,
+    "NE10->NE11": 1.0,
+    "NE11->NE10": 1.0,
+    "NE11->NE12": 1.0,
+    "NE12->NE11": 2.0,
+    "NE12->NE13": 2.0,
+    "NE12->CC13": 6.0,
+    "NE13->NE12": 1.0,
+    "NE13->NE14": 1.0,
+    "NE14->NE13": 1.0,
+    "NE14->NE15": 1.0,
+    "NE15->NE14": 1.0,
+    "NE15->NE16": 1.0,
+    "NE16->NE15": 1.0,
+    "NE16->NE17": 1.0,
+    "NE17->NE16": 1.0,
+    "NS1->NS2": 2.0,
+    "NS1->EW24": 6.0,
+    "NS2->NS1": 1.0,
+    "NS2->NS3": 1.0,
+    "NS3->NS2": 1.0,
+    "NS3->NS4": 1.0,
+    "NS4->NS3": 1.0,
+    "NS4->NS5": 1.0,
+    "NS5->NS4": 1.0,
+    "NS5->NS7": 1.0,
+    "NS7->NS5": 1.0,
+    "NS7->NS8": 1.0,
+    "NS8->NS7": 1.0,
+    "NS8->NS9": 1.0,
+    "NS9->NS8": 2.0,
+    "NS9->NS10": 2.0,
+    "NS9->TE2": 6.0,
+    "NS10->NS9": 1.0,
+    "NS10->NS11": 1.0,
+    "NS11->NS10": 1.0,
+    "NS11->NS12": 1.0,
+    "NS12->NS11": 1.0,
+    "NS12->NS13": 1.0,
+    "NS13->NS12": 1.0,
+    "NS13->NS14": 1.0,
+    "NS14->NS13": 1.0,
+    "NS14->NS15": 1.0,
+    "NS15->NS14": 1.0,
+    "NS15->NS16": 1.0,
+    "NS16->NS15": 1.0,
+    "NS16->NS17": 1.0,
+    "NS17->NS16": 2.0,
+    "NS17->NS18": 2.0,
+    "NS17->CC15": 6.0,
+    "NS18->NS17": 1.0,
+    "NS18->NS19": 1.0,
+    "NS19->NS18": 1.0,
+    "NS19->NS20": 1.0,
+    "NS20->NS19": 1.0,
+    "NS20->NS21": 1.0,
+    "NS21->NS20": 2.0,
+    "NS21->NS22": 2.0,
+    "NS21->DT11": 6.0,
+    "NS22->NS21": 2.0,
+    "NS22->NS23": 2.0,
+    "NS22->TE14": 6.0,
+    "NS23->NS22": 1.0,
+    "NS23->NS24": 1.0,
+    "NS24->NS23": 3.0,
+    "NS24->NS25": 3.0,
+    "NS24->CC1": 7.0,
+    "NS25->NS24": 2.0,
+    "NS25->NS26": 2.0,
+    "NS25->EW13": 6.0,
+    "NS26->NS25": 2.0,
+    "NS26->NS27": 2.0,
+    "NS26->EW14": 6.0,
+    "NS27->NS26": 2.0,
+    "NS27->NS28": 2.0,
+    "NS27->CE2": 6.0,
+    "NS28->NS27": 1.0,
+    "TE1->TE2": 1.0,
+    "TE2->TE1": 2.0,
+    "TE2->TE3": 2.0,
+    "TE2->NS9": 6.0,
+    "TE3->TE2": 1.0,
+    "TE3->TE4": 1.0,
+    "TE4->TE3": 1.0,
+    "TE4->TE5": 1.0,
+    "TE5->TE4": 1.0,
+    "TE5->TE6": 1.0,
+    "TE6->TE5": 1.0,
+    "TE6->TE7": 1.0,
+    "TE7->TE6": 1.0,
+    "TE7->TE8": 1.0,
+    "TE8->TE7": 1.0,
+    "TE8->TE9": 1.0,
+    "TE9->TE8": 2.0,
+    "TE9->TE11": 2.0,
+    "TE9->CC17": 6.0,
+    "TE11->TE9": 2.0,
+    "TE11->TE12": 2.0,
+    "TE11->DT10": 6.0,
+    "TE12->TE11": 1.0,
+    "TE12->TE13": 1.0,
+    "TE13->TE12": 1.0,
+    "TE13->TE14": 1.0,
+    "TE14->TE13": 2.0,
+    "TE14->TE15": 2.0,
+    "TE14->NS22": 6.0,
+    "TE15->TE14": 1.0,
+    "TE15->TE16": 1.0,
+    "TE16->TE15": 1.0,
+    "TE16->TE17": 1.0,
+    "TE17->TE16": 1.0,
+    "TE17->TE18": 1.0,
+    "TE17->EW16": 1.0,
+    "TE18->TE17": 1.0,
+    "TE18->TE19": 1.0,
+    "TE19->TE18": 1.0,
+    "TE19->TE20": 1.0,
+    "TE20->TE19": 1.0,
+    "TE20->TE22": 1.0,
+    "TE20->CE2": 1.0,
+    "TE22->TE20": 1.0,
+    "TE22->TE23": 1.0,
+    "TE23->TE22": 1.0,
+    "TE23->TE24": 1.0,
+    "TE24->TE23": 1.0,
+    "TE24->TE25": 1.0,
+    "TE25->TE24": 1.0,
+    "TE25->TE26": 1.0,
+    "TE26->TE25": 1.0,
+    "TE26->TE27": 1.0,
+    "TE27->TE26": 1.0,
+    "TE27->TE28": 1.0,
+    "TE28->TE27": 1.0,
+    "TE28->TE29": 1.0,
+    "TE29->TE28": 1.0,
+    "TE29->TE30": 1.0,
+    "TE30->TE29": 1.0,
+    "TE30->TE31": 1.0,
+    "TE31->TE30": 1.0,
+    "TE31->TE32": 1.0,
+    "TE32->TE31": 2.0,
+    "TE32->TE32X": 2.0,
+    "TE32->CR1": 6.0,
+    "TE32X->TE32": 1.0,
+    "TE32X->TE33": 1.0,
+    "TE33->TE32X": 1.0,
+    "TE33->TE34": 1.0,
+    "TE34->TE33": 1.0,
+    "TE34->TE35": 1.0,
+    "TE34->DT35": 1.0,
+    "TE35->TE34": 1.0,
+    "TE35->EW4": 1.0
+  }
+}

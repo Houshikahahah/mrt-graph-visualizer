@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MRT Graph Visualizer</title>
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Vis Network (graph library) -->
+  <script defer src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <!-- Animated background -->
+  <canvas id="bg"></canvas>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div class="brandText">
+        <div class="title">MRT Graph</div>
+        <div class="subtitle">Interactive network view BFS / DFS / GBFS / A*</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="graphPicker">
+        <span>Dataset</span>
+        <select id="graphSelect">
+          <option value="./data/graph.json" selected>Today (graph.json)</option>
+          <option value="./data/graph_future.json">Future (graph_future.json)</option>
+        </select>
+      </div>
+      <button id="btnLoad" class="btn ghost">Load JSON</button>
+      <input id="fileInput" type="file" accept=".json" hidden />
+      <button id="btnFit" class="btn ghost">Fit</button>
+      <button id="btnReset" class="btn">Reset</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel left">
+      <div class="panelTitle">Controls</div>
+
+      <div class="field">
+        <label>Start</label>
+        <select id="startSelect"></select>
+      </div>
+
+      <div class="field">
+        <label>End</label>
+        <select id="endSelect"></select>
+      </div>
+
+      <div class="row">
+        <button id="btnBFS" class="btn">BFS</button>
+        <button id="btnDFS" class="btn">DFS</button>
+      </div>
+      <div class="row">
+        <button id="btnGBFS" class="btn ghost">GBFS</button>
+        <button id="btnAStar" class="btn ghost">A*</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="field">
+        <label>Search station</label>
+        <input id="searchBox" class="input" placeholder="e.g., EW13 or City Hall" />
+      </div>
+
+      <div class="row">
+        <button id="btnFocus" class="btn ghost">Focus</button>
+        <button id="btnClearPath" class="btn ghost">Clear Path</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="legend">
+        <div class="legendTitle">Legend</div>
+        <div class="legendRow"><span class="dot ew"></span> EW</div>
+        <div class="legendRow"><span class="dot ns"></span> NS</div>
+        <div class="legendRow"><span class="dot cc"></span> CC</div>
+        <div class="legendRow"><span class="dot dt"></span> DT</div>
+        <div class="legendRow"><span class="dot ne"></span> NE</div>
+        <div class="legendRow"><span class="dot te"></span> TE</div>
+        <div class="legendRow"><span class="dot cg"></span> CG</div>
+        <div class="legendRow"><span class="dot ce"></span> CE</div>
+      </div>
+
+      <div class="divider"></div>
+
+            <div class="stats">
+        <div class="stat">
+          <div class="k">Nodes</div>
+          <div class="v" id="statNodes">-</div>
+        </div>
+        <div class="stat">
+          <div class="k">Edges</div>
+          <div class="v" id="statEdges">-</div>
+        </div>
+        <div class="stat">
+          <div class="k">Path length</div>
+          <div class="v" id="statPath">-</div>
+        </div>
+        <div class="stat">
+          <div class="k">Cost</div>
+          <div class="v" id="statCost">-</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel center">
+      <div class="panelTitle">Network</div>
+      <div id="graph"></div>
+      <div class="hint">
+        Drag nodes / Scroll to zoom / Click station to see details
+      </div>
+    </section>
+
+    <section class="panel right">
+      <div class="panelTitle">Output</div>
+      <pre id="output" class="output"></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Tip: Start with sample data, then replace with your exported graph JSON from Python.</div>
+  </footer>
+</body>
+</html>
+
+
