@@ -54,13 +54,16 @@ def _candidate_codes(line: str, n: int) -> Tuple[str, str]:
 
 def load_station_coords_latlon(json_path: str) -> Dict[str, Tuple[float, float]]:
     """
-    Reads your JSON list like:
-      [{"line":"EW","station_number":7,"latitude":..,"longitude":..}, ...]
-    Returns dict: station_code -> (lat, lon)
+    Supports TWO formats:
 
-    We store BOTH code formats:
-      EW7 and EW07 (same coordinate)
-    so it matches whichever style your graph uses.
+    (A) FUTURE JSON:
+        {"station_code":"TE32","latitude":..,"longitude":..}
+
+    (B) TODAY JSON:
+        {"line":"EW","station_number":7,"latitude":..,"longitude":..}
+
+    Returns: {STATION_CODE: (lat, lon)}
+    Also stores both padded and non-padded variants when possible.
     """
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"Coords JSON not found: {json_path}")
@@ -68,33 +71,71 @@ def load_station_coords_latlon(json_path: str) -> Dict[str, Tuple[float, float]]
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    coords: Dict[str, Tuple[float, float]] = {}
-    for row in data:
-        line = str(row["line"]).strip().upper()
-        n = int(row["station_number"])
-        lat = float(row["latitude"])
-        lon = float(row["longitude"])
+    # If JSON is wrapped in a dict, unwrap common containers
+    if isinstance(data, dict):
+        for k in ("stations", "data", "items"):
+            if k in data and isinstance(data[k], list):
+                data = data[k]
+                break
 
+    if not isinstance(data, list):
+        raise ValueError("Expected a JSON list of station objects.")
+
+    coords: Dict[str, Tuple[float, float]] = {}
+
+    for row in data:
+        if not isinstance(row, dict):
+            continue
+
+        lat = row.get("latitude") or row.get("lat")
+        lon = row.get("longitude") or row.get("lon") or row.get("lng")
+        if lat is None or lon is None:
+            continue
+
+        try:
+            lat = float(lat)
+            lon = float(lon)
+        except (TypeError, ValueError):
+            continue
+
+        # -------- Format A: station_code (FUTURE) --------
+        code = row.get("station_code") or row.get("code") or row.get("stationCode")
+        if code:
+            code = _ensure_upper(str(code))
+            coords[code] = (lat, lon)
+
+            # also add padded/non-padded variants if it matches e.g. TE32
+            m = _CODE_RE.match(code)
+            if m:
+                line, digits = m.group(1), m.group(2)
+                n = int(digits)
+                c1, c2 = _candidate_codes(line, n)
+                coords[c1] = (lat, lon)
+                coords[c2] = (lat, lon)
+            continue
+
+        # -------- Format B: line + station_number (TODAY) --------
+        line = row.get("line")
+        station_number = row.get("station_number")
+
+        if line is None or station_number in (None, ""):
+            continue
+
+        try:
+            n = int(station_number)
+        except (TypeError, ValueError):
+            continue
+
+        line = str(line).strip().upper()
         c1, c2 = _candidate_codes(line, n)
         coords[c1] = (lat, lon)
         coords[c2] = (lat, lon)
 
+    if not coords:
+        raise ValueError(f"No valid station coordinates loaded from {json_path}")
+
     return coords
 
-
-def _latlon_to_xy_m(lat: float, lon: float, lat0_deg: float) -> Tuple[float, float]:
-    """
-    Equirectangular projection -> (x,y) in meters.
-    Good approximation for Singapore-scale distances.
-    """
-    R = 6_371_000.0  # meters
-    phi = math.radians(lat)
-    lam = math.radians(lon)
-    phi0 = math.radians(lat0_deg)
-
-    x = R * lam * math.cos(phi0)
-    y = R * phi
-    return x, y
 
 
 def build_euclidean_distance_heuristic(

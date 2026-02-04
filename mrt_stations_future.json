@@ -1483,78 +1483,88 @@
     "latitude": 1.3126,
     "longitude": 103.9319
   },
-  [
   {
-    "station_code": "TE35",
+    "line": "TE",
+    "station_number": "35",
     "station_name": "Tanah Merah",
     "latitude": 1.3275,
     "longitude": 103.9464
   },
   {
-    "station_code": "TE34",
+    "line": "TE",
+    "station_number": "34",
     "station_name": "Expo",
     "latitude": 1.334,
     "longitude": 103.9613
   },
   {
-    "station_code": "TE33",
+    "line": "TE",
+    "station_number": "33",
     "station_name": "Changi Airport",
     "latitude": 1.3573,
     "longitude": 103.9886
   },
   {
-    "station_code": "TE32",
+    "line": "TE",
+    "station_number": "32",
     "station_name": "Changi Airport T5",
     "latitude": 1.3244444,
     "longitude": 103.9927778
   },
   {
-    "station_code": "CR1",
+    "line": "CR",
+    "station_number": "1",
     "station_name": "Changi Airport T5",
     "latitude": 1.3244444,
     "longitude": 103.9927778
   },
   {
-    "station_code": "CR2",
+    "line": "CR",
+    "station_number": "2",
     "station_name": "Aviation Park",
     "latitude": 1.37017,
     "longitude": 104.00352
   },
   {
-    "station_code": "CR3",
+    "line": "CR",
+    "station_number": "3",
     "station_name": "Loyang",
     "latitude": 1.36,
     "longitude": 104.006
   },
   {
-    "station_code": "CR4",
+    "line": "CR",
+    "station_number": "4",
     "station_name": "Pasir Ris East",
     "latitude": 1.373,
     "longitude": 103.951
   },
   {
-    "station_code": "CR5",
+    "line": "CR",
+    "station_number": "5",
     "station_name": "Pasir Ris",
     "latitude": 1.3721,
     "longitude": 103.9493
   },
   {
-    "station_code": "TE30",
+    "line": "TE",
+    "station_number": "30",
     "station_name": "Bedok South",
     "latitude": 1.3195,
     "longitude": 103.937
   },
   {
-    "station_code": "TE31",
+    "line": "TE",
+    "station_number": "31",
     "station_name": "Sungei Bedok",
     "latitude": 1.3185,
     "longitude": 103.93
   },
   {
-    "station_code": "TE32X",
+    "line": "TE",
+    "station_number": "32X",
     "station_name": "Xilin",
     "latitude": 1.332,
     "longitude": 103.9485
   }
-]
 ]

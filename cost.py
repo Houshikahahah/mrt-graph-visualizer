@@ -72,15 +72,18 @@ def path_cost(graph, path):
 def bake_source_crowding_weights(graph):
     """
     For every directed edge A->B:
-        w(A->B) = 1 (step) + crowding(A) + (4 if transfer(A,B) else 0)
+        w(A->B) = 1 (travel)
+              + (4 if transfer(A,B) else 0)
+              + (crowding(A) only if transfer)
     """
-    _ensure_crowded(graph)  # make sure build_crowding has run
+    _ensure_crowded(graph)
 
     for a, sa in graph.stations.items():
         for b in list(sa.connections.keys()):
-            base = TRAVEL_COST  # this is 1.0
+            base = TRAVEL_COST  # 1.0
+
             if graph.is_transfer(a, b):
-                base += TRANSFER_COST  # +4.0
-            # add crowding for the *source* station a
-            base += crowding_penalty(graph, a)
+                base += TRANSFER_COST          # +4.0
+                base += crowding_penalty(graph, a)  # crowding only on transfer
+
             sa.connections[b] = base

@@ -75,13 +75,15 @@ def _candidate_codes(line: str, n: int) -> Tuple[str, str]:
 
 def load_station_coords_latlon(json_path: str) -> Dict[str, Tuple[float, float]]:
     """
-    Reads your JSON list like:
-      [{"line":"EW","station_number":7,"latitude":..,"longitude":..}, ...]
-    Returns dict: station_code -> (lat, lon)
+    Supports TWO JSON row formats:
 
-    We store BOTH code formats:
-      EW7 and EW07 (same coordinate)
-    so it matches whichever style your graph uses.
+    A) station_code format (your FUTURE json):
+       {"station_code":"TE32","latitude":..,"longitude":..}
+
+    B) line + station_number format:
+       {"line":"EW","station_number":7,"latitude":..,"longitude":..}
+
+    Returns: {CODE: (lat, lon)} and also adds zero-padded variant if applicable.
     """
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"Coords JSON not found: {json_path}")
@@ -90,17 +92,61 @@ def load_station_coords_latlon(json_path: str) -> Dict[str, Tuple[float, float]]
         data = json.load(f)
 
     coords: Dict[str, Tuple[float, float]] = {}
-    for row in data:
-        line = str(row["line"]).strip().upper()
-        n = int(row["station_number"])
-        lat = float(row["latitude"])
-        lon = float(row["longitude"])
 
+    for row in data:
+        if not isinstance(row, dict):
+            continue
+
+        lat = row.get("latitude") or row.get("lat")
+        lon = row.get("longitude") or row.get("lon") or row.get("lng")
+        if lat is None or lon is None:
+            continue
+
+        try:
+            lat = float(lat)
+            lon = float(lon)
+        except (TypeError, ValueError):
+            continue
+
+        # --- Case A: station_code provided ---
+        code = row.get("station_code") or row.get("code") or row.get("stationCode")
+        if code:
+            code = _ensure_upper(str(code))
+            coords[code] = (lat, lon)
+
+            # also store zero/non-zero padded variants if it matches pattern
+            m = _CODE_RE.match(code)
+            if m:
+                line, digits = m.group(1), m.group(2)
+                n = int(digits)
+                c1, c2 = _candidate_codes(line, n)
+                coords[c1] = (lat, lon)
+                coords[c2] = (lat, lon)
+            continue
+
+        # --- Case B: line + station_number ---
+        line = row.get("line")
+        station_number = row.get("station_number")
+
+        if line is None or station_number in (None, ""):
+            continue
+
+        try:
+            n = int(station_number)
+        except (TypeError, ValueError):
+            continue
+
+        line = str(line).strip().upper()
         c1, c2 = _candidate_codes(line, n)
         coords[c1] = (lat, lon)
         coords[c2] = (lat, lon)
 
+    if not coords:
+        raise ValueError(f"No valid station coordinates loaded from {json_path}")
+
     return coords
+
+
 
 
 def _latlon_to_xy_m(lat: float, lon: float, lat0_deg: float) -> Tuple[float, float]:
@@ -201,6 +247,9 @@ def build_euclidean_time_heuristic_from_json(
     missing_value: float = 0.0,
 ) -> Dict[str, float]:
     coords = load_station_coords_latlon(coords_json_path)
+    if goal not in coords:
+        # show something close to TE32 if present with padding or odd chars
+        keys = list(coords.keys())
     return build_euclidean_time_heuristic(
         graph,
         goal,
@@ -208,4 +257,5 @@ def build_euclidean_time_heuristic_from_json(
         minutes_per_km=minutes_per_km,
         missing_value=missing_value,
     )
+
 

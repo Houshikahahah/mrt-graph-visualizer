@@ -107,6 +107,7 @@ from search import (bfs, dfs, greedy_best_first_search, a_star_search)
 from cost import path_cost, edge_cost, crowding_penalty
 from use_cases import TODAY_CASES, FUTURE_CASES
 from heuristic import build_euclidean_time_heuristic_from_json
+from pathlib import Path
 
 
 def print_edge_details(graph, path):
@@ -119,7 +120,9 @@ def print_edge_details(graph, path):
     for i in range(len(path) - 1):
         a, b = path[i], path[i + 1]
         w = edge_cost(graph, a, b)
-        cp = crowding_penalty(graph, a)  # crowding from source node
+        is_transfer = graph.is_transfer(a, b)
+        cp = crowding_penalty(graph, a) if is_transfer else 0
+
         is_transfer = graph.is_transfer(a, b)
         print(
             f"{a} -> {b}: cost={w} "
@@ -131,7 +134,7 @@ def print_edge_details(graph, path):
     print("Recomputed total cost:", total)
 
 
-# ✅ OPTION A: pass coords_json into run_case
+
 def run_case(graph, start, end, label, coords_json):
     print("\n==================================================")
     print(label)
@@ -139,7 +142,7 @@ def run_case(graph, start, end, label, coords_json):
     print("End  :", end, "->", graph.stations[end].name)
     print("==================================================")
 
-    # ✅ Euclidean heuristic (minutes-based)
+ 
     heuristic = build_euclidean_time_heuristic_from_json(
         graph,
         end,
@@ -184,7 +187,9 @@ if __name__ == "__main__":
     graph = initialize_mrt_today()
     print("Total stations:", len(graph.stations))
 
-    TODAY_COORDS_JSON = "mrt_stations_today.json"  
+    BASE_DIR = Path(__file__).resolve().parent
+    TODAY_COORDS_JSON = str(BASE_DIR / "mrt_stations_today.json")
+    FUTURE_COORDS_JSON = str(BASE_DIR / "mrt_stations_future.json")
 
     for start, end, label in TODAY_CASES:
         run_case(graph, start, end, label, TODAY_COORDS_JSON)
@@ -196,7 +201,6 @@ if __name__ == "__main__":
     future_graph = initialize_mrt_future()
     print("Total stations (FUTURE):", len(future_graph.stations))
 
-    FUTURE_COORDS_JSON = "mrt_stations_future.json"  
 
     for start, end, label in FUTURE_CASES:
         run_case(future_graph, start, end, "[FUTURE] " + label, FUTURE_COORDS_JSON)
